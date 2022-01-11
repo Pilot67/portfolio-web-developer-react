@@ -1,5 +1,5 @@
-import Nav from './components/Nav';
+import Navbar from './Components/Navbar/Navbar';
 
 export default function App() {
-  return <Nav />;
+  return <Navbar />;
 }
