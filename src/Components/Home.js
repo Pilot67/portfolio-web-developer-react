@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/AboutMe.css";
+import "./css/Home.css";
 
-function AboutMe() {
+function Home() {
   return (
     // <!-- <section class="cardBodyWideProfile" id="stuarts"> -->
     <div className={"container"}>
@@ -40,4 +40,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default Home;

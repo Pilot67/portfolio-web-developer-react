@@ -22,6 +22,16 @@ As there is no published fontend for this app, please see my Github repository t
     link: "#",
     github:"https://github.com/Pilot67/best-readme-generator",
     image: "./images/Readme-Gen.png",
+},
+{
+    heading: "Tech Blog",
+    content: `Tech people love to blog their experiences. This rudimentary web site is a place for just that! Utilising 'Full Stack' development this site logs posts and comments to a MySQL database and allows full CRUD functionality.
+
+This app showcases my first full stack development utilising MySQL Sequelize, Handlebars, jQuery and Bootstrap along with various other programming skills including Github.`,
+    link: "https://cryptic-brushlands-81287.herokuapp.com/",
+    github: "https://github.com/Pilot67/tech-blog",
+    image: "./images/Tech-Blog-1024.png",
+
 }]
 
 export default content

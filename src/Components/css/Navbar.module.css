@@ -28,8 +28,13 @@ header {
   cursor: pointer;
   background-color: var(--darkcharcoal);
 }
+.itemsUnselected {
+  text-decoration: none;
+  color: var(--chalk)
+}
 .itemsSelected {
-  color: red;
+  text-decoration: none;
+  color: var(--khaki);
 }
 .btn {
   display: block;
@@ -64,7 +69,8 @@ header {
     padding: 0;
     border: none;
   }
-.items:hover {
+.items:hover, 
+.items a:hover {
   color: var(--khaki);
   transform: translate(-1px, -1px);
 }
