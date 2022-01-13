@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home";
 import Card from "./Components/Card";
+import Footer from "./Components/Footer";
 import "./style.css";
 
 
@@ -22,6 +23,7 @@ function App() {
     <div>
       <Navbar currPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
+      <Footer />
     </div>
   );
 }

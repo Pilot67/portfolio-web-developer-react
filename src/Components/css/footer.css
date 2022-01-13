@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: var(--darkcharcoal);
+}
+footer h2,
+footer h4 {
+  color: var(--chalk);
+  padding: 3rem 2rem;
+}
+.footerImage {
+    width: 50px;
+    padding: 0.75rem;
+}
