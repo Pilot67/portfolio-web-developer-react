@@ -5,7 +5,7 @@ function Home() {
   return (
     // <!-- <section class="cardBodyWideProfile" id="stuarts"> -->
     <div className={"container"}>
-      <section className={"mt-5 cardBodyWide aside-left"} id="stuarts">
+      <section className={"cardBodyWide aside-left"} id="stuarts">
         <aside className={"cardText cardTextAbout"}>
           <div>
             <h1 className={"text-center"}>Portfolio</h1>
@@ -24,8 +24,6 @@ function Home() {
               closely with you to provide easy web-space deployment.
             </p>
           </div>
-          {/* <!-- <a href="#contactMe"><button>Contact Me</button></a> --> */}
-          {/* <a><button class="contactBtn">Lets Talk</button></a> */}
         </aside>
 
         {/* <!-- Hero image --> */}

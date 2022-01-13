@@ -1,7 +1,9 @@
 header {
-  position: block;
+  position: sticky;
   top: 0;
   width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
   height: 70px;
   background-color: var(--darkcharcoal);
 }

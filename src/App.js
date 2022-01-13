@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
+import Contact from "./Components/ContactForm";
 import "./style.css";
 
 
@@ -15,6 +16,9 @@ function App() {
     }
     if (currentPage === "Projects") {
       return <Card />;
+    }
+    if (currentPage === "Contact") {
+      return <Contact />;
     }
   };
   const handlePageChange = (page) => setCurrentPage(page);

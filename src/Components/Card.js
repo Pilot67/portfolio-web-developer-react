@@ -8,9 +8,9 @@ function Card() {
       {content.map(({ heading, content, github, link, image }, index) => (
         <section
           key={index}
-          className={index === 0 ? "cardBodyWide" : "cardBody"}
+          className={index === 0 ? "projectCardBodyWide" : "projectCardBody"}
         >
-          <div className={"cardText"}>
+          <div className={"projectCardText"}>
             <div>
               <a href={link} target="_blank" rel="noreferrer">
                 <h2 className="text-center">{heading}</h2>
@@ -21,15 +21,16 @@ function Card() {
               Click here for the Github Repository
             </a>
           </div>
-          <div className={"cardImage"}>
-            <a
-              className={"cardImage"}
+          <div className={"projectCardImage"}>
+            <img src={require(`${image}`)} alt="Project / app images" />
+            {/* <a
+              
               href={link}
               target="_blank"
               rel="noreferrer"
             >
               <img src={require(`${image}`)} alt="Project / app images" />
-            </a>
+            </a> */}
           </div>
         </section>
       ))}
