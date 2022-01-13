@@ -5,7 +5,7 @@ import content from "../Portfolio";
 function Card() {
   return (
     <div className={"container"}>
-      {content.map(({ heading, content, github, link , image}, index) => (
+      {content.map(({ heading, content, github, link, image }, index) => (
         <section
           key={index}
           className={index === 0 ? "cardBodyWide" : "cardBody"}
@@ -17,11 +17,20 @@ function Card() {
               </a>
               <p>{content}</p>
             </div>
-            <a href = {github} target="_blank" rel="noreferrer">Click here for the Github Repository</a>
+            <a href={github} target="_blank" rel="noreferrer">
+              Click here for the Github Repository
+            </a>
           </div>
-          <a className="cardImage" href={link} target="_blank" rel="noreferrer">
-            <img src={require(`${image}`)} alt = "Project / app images"/>
-          </a>
+          <div className={"cardImage"}>
+            <a
+              className={"cardImage"}
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={require(`${image}`)} alt="Project / app images" />
+            </a>
+          </div>
         </section>
       ))}
     </div>
