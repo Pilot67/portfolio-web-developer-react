@@ -1,3 +1,52 @@
+/* Reset CSS */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+​h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+​input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+​ol,
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+/* End of Reset */
 /* color scheme */
 :root {
   --chalk: #fbf7f5;
@@ -6,4 +55,78 @@
   --darkcharcoal: #33320b;
   --textBlack: #0c0c0c;
   --modalcharcoal: #111109ce;
+}
+html {
+  /* set global font size to 10 for easy calculations */
+  font-size: 62.5%;
+  background-color: var(--chalk);
+}
+
+body {
+  /* Set body font and text size */
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--textBlack);
+  background-color: var(--chalk);
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--textBlack);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1180px;
+  justify-content: center;
+  padding: 0 0px;
+  margin-top: 70px;
 }
