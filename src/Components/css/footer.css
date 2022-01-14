@@ -3,15 +3,29 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  padding: 0 0.5rem;
   background-color: var(--darkcharcoal);
 }
-footer h2,
 footer h4 {
   color: var(--chalk);
-  padding: 3rem 2rem;
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
 }
 .footerImage {
+  width: 2.5em;
+  padding: 1rem;
+}
+@media screen and (min-width: 640px) {
+  footer {
+    padding: 0 3rem;
+  }
+  .footerImage {
     width: 50px;
     padding: 0.75rem;
+  }
+  footer h4 {
+    padding: 3rem 2rem;
+    font-size: 2.5rem;
+  }
+  
 }

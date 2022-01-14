@@ -10,7 +10,7 @@ function Footer() {
       <div>
         <a href={"https://github.com/Pilot67"} target="_blank" rel="noreferrer">
           <img
-            className={"footerImage"}
+            className="footerImage"
             src={require("./images/github-white.png")}
             alt="github"
           />
@@ -21,7 +21,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
-            className={"footerImage"}
+            className="footerImage"
             src={require("./images/linkedin-white.png")}
             alt="LinkedIn"
           />
@@ -32,7 +32,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
-            className={"footerImage"}
+            className="footerImage"
             src={require("./images/stack-overflow-white.png")}
             alt="StackOverflow"
           />

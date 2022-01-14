@@ -10,6 +10,11 @@ const Navbar = ({ handlePageChange, currPage }) => {
     setToggleMenu((prevToggleMenu) => !prevToggleMenu);
   };
 
+  const handleMenuClick = (page)=> {
+    setToggleMenu(false);
+    handlePageChange(page)
+  };
+
   useEffect(() => {
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -21,7 +26,8 @@ const Navbar = ({ handlePageChange, currPage }) => {
   }, []);
 
   return (
-    <header>
+    <header className={style.header}> 
+    <div className={style.menubar}>
       {(toggleMenu || screenWidth > 639) && (
         <ul className={style.list}>
           <li className={style.items}>
@@ -32,7 +38,7 @@ const Navbar = ({ handlePageChange, currPage }) => {
                   : style.itemsUnselected
               }
               href="#home"
-              onClick={() => handlePageChange("Home")}
+              onClick={() => handleMenuClick("Home")}
             >
               About Me
             </a>
@@ -45,7 +51,7 @@ const Navbar = ({ handlePageChange, currPage }) => {
                   : style.itemsUnselected
               }
               href="#projects"
-              onClick={() => handlePageChange("Projects")}
+              onClick={() => handleMenuClick("Projects")}
             >
               Projects
             </a>
@@ -58,7 +64,7 @@ const Navbar = ({ handlePageChange, currPage }) => {
                   : style.itemsUnselected
               }
               href="#contact"
-              onClick={() => handlePageChange("Contact")}
+              onClick={() => handleMenuClick("Contact")}
             >
               Contact Me
             </a>
@@ -71,7 +77,7 @@ const Navbar = ({ handlePageChange, currPage }) => {
                   : style.itemsUnselected
               }
               href="#resume"
-              onClick={() => handlePageChange("Resume")}
+              onClick={() => handleMenuClick("Resume")}
             >
               Resume
             </a>
@@ -81,6 +87,7 @@ const Navbar = ({ handlePageChange, currPage }) => {
       <button className={style.btn} onClick={toggleNav}>
         <img className={style.hamburger} src={hamburgerIcon} alt={""} />
       </button>
+      </div>
     </header>
   );
 };

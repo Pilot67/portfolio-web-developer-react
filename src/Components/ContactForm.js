@@ -1,32 +1,45 @@
 import React, { useState } from "react";
-import "../style.css";
+import "./css/contact.css";
 import { validateEmail } from "../Utils/helpers";
-
 
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState(" ");
 
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { target } = e;
+  const handleInputChange = (event) => {
+    const { target } = event;
     const inputType = target.name;
     const inputValue = target.value;
-
-    // Based on the input type, we set the state of either email, username, and password
-    // TODO: Add an else statement to the end that will set the password to the value of 'inputValue'
 
     if (inputType === "email") {
       setEmail(inputValue);
     } else if (inputType === "name") {
       setName(inputValue);
     } else if (inputType === "message") {
-      setMessage(inputValue);
+      setMessage((prevInputValue) => (prevInputValue = inputValue));
     }
   };
 
+  const handleMouseLeave = (event) => {
+    event.preventDefault(event);
+    const { target } = event;
+    const inputType = target.name;
+    if (inputType === "email" && !email) {
+      setErrorMessage("Email is required");
+      return;
+    } else if (inputType === "email" && !validateEmail(email)) {
+      setErrorMessage("Email address is invalid");
+      return;
+    } else {
+      setErrorMessage(`${inputType} is required`);
+    }
+  };
+  const handleMouseEnter = (event) => {
+    event.preventDefault();
+    setErrorMessage(" ");
+  };
   const handleFormSubmit = (event) => {
     event.preventDefault();
     if (!validateEmail(email) || !name) {
@@ -46,31 +59,54 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className="container formBackground">
       <form className="form">
+        <h3 className="text-center">Send me a message</h3>
+        <label htmlFor="email">Enter your email address</label>
         <input
+          className="inputField"
           value={email}
           name="email"
           onChange={handleInputChange}
+          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnter}
           type="email"
           placeholder="email"
         />
+        <label htmlFor="name">Enter your name</label>
         <input
+          className="inputField"
           value={name}
           name="name"
           onChange={handleInputChange}
+          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnter}
           type="text"
           placeholder="Name"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <label htmlFor="contactMessage">Message</label>
+        <textarea
+          id="contactMessage"
+          className={""}
+          type="textarea"
+          name="message"
+          rows="4"
+          placeholder="Message"
+          maxLength="3000"
+          onChange={handleInputChange}
+          onMouseLeave={handleMouseLeave}
+          onMouseEnter={handleMouseEnter}
+        ></textarea>
+
+        <button className="inputField" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
     </div>
   );
 }

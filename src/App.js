@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
 import Contact from "./Components/ContactForm";
+import Resume from "./Components/Resume";
+
 import "./style.css";
 
 
@@ -19,6 +21,9 @@ function App() {
     }
     if (currentPage === "Contact") {
       return <Contact />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
   };
   const handlePageChange = (page) => setCurrentPage(page);

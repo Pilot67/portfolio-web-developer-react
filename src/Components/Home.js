@@ -1,17 +1,16 @@
 import React from "react";
-import "./css/Home.css";
 
 function Home() {
   return (
     // <!-- <section class="cardBodyWideProfile" id="stuarts"> -->
-    <div className={"container"}>
-      <section className={"cardBodyWide aside-left"} id="stuarts">
-        <aside className={"cardText cardTextAbout"}>
+    <div className="container">
+      <section className="cardBodyWide aside-left" id="stuarts">
+        <aside className="cardText cardTextAbout">
           <div>
-            <h1 className={"text-center"}>Portfolio</h1>
-            <h3 className={"text-center"}>Stuart Simmons</h3>
+            <h1 className="text-center">Portfolio</h1>
+            <h3 className="text-center">Stuart Simmons</h3>
             <br />
-            <h3 className={"text-center"}>Complete Website Development</h3>
+            <h3 className="text-center">Complete Website Development</h3>
             <p>
               With a myriad of experience in the industrial sector, my strengths
               lie in creating accessible, easy to use and functional
