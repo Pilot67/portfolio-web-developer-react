@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-web-developer-react/static/css/main.1b612f0a.css",
-    "main.js": "/portfolio-web-developer-react/static/js/main.54c242b3.js",
+    "main.css": "/portfolio-web-developer-react/static/css/main.b5050d9a.css",
+    "main.js": "/portfolio-web-developer-react/static/js/main.58b59d20.js",
     "static/media/pilot-log-gif.gif": "/portfolio-web-developer-react/static/media/pilot-log-gif.298c7cd884aaf8e1234f.gif",
     "static/media/heroImage-1024.png": "/portfolio-web-developer-react/static/media/heroImage-1024.91e46f73c6fdf881d0ba.png",
     "static/media/WeatherDashboard.png": "/portfolio-web-developer-react/static/media/WeatherDashboard.276bab0f58e20f79775b.png",
@@ -15,11 +15,11 @@
     "static/media/WorkDaySchedule.png": "/portfolio-web-developer-react/static/media/WorkDaySchedule.e01c00b2f5de3cee24e0.png",
     "static/media/github.png": "/portfolio-web-developer-react/static/media/github.9e094d235b4caa7c31fc.png",
     "index.html": "/portfolio-web-developer-react/index.html",
-    "main.1b612f0a.css.map": "/portfolio-web-developer-react/static/css/main.1b612f0a.css.map",
-    "main.54c242b3.js.map": "/portfolio-web-developer-react/static/js/main.54c242b3.js.map"
+    "main.b5050d9a.css.map": "/portfolio-web-developer-react/static/css/main.b5050d9a.css.map",
+    "main.58b59d20.js.map": "/portfolio-web-developer-react/static/js/main.58b59d20.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b612f0a.css",
-    "static/js/main.54c242b3.js"
+    "static/css/main.b5050d9a.css",
+    "static/js/main.58b59d20.js"
   ]
 }
