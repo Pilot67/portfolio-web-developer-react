@@ -10,9 +10,9 @@ const Navbar = ({ handlePageChange, currPage }) => {
     setToggleMenu((prevToggleMenu) => !prevToggleMenu);
   };
 
-  const handleMenuClick = (page)=> {
+  const handleMenuClick = (page) => {
     setToggleMenu(false);
-    handlePageChange(page)
+    handlePageChange(page);
   };
 
   useEffect(() => {
@@ -26,67 +26,68 @@ const Navbar = ({ handlePageChange, currPage }) => {
   }, []);
 
   return (
-    <header className={style.header}> 
-    <div className={style.menubar}>
-      {(toggleMenu || screenWidth > 639) && (
-        <ul className={style.list}>
-          <li className={style.items}>
-            <a
-              className={
-                currPage === "Home"
-                  ? style.itemsSelected
-                  : style.itemsUnselected
-              }
-              href="#home"
-              onClick={() => handleMenuClick("Home")}
-            >
-              About Me
-            </a>
-          </li>
-          <li className={style.items}>
-            <a
-              className={
-                currPage === "Projects"
-                  ? style.itemsSelected
-                  : style.itemsUnselected
-              }
-              href="#projects"
-              onClick={() => handleMenuClick("Projects")}
-            >
-              Projects
-            </a>
-          </li>
-          <li className={style.items}>
-            <a
-              className={
-                currPage === "Contact"
-                  ? style.itemsSelected
-                  : style.itemsUnselected
-              }
-              href="#contact"
-              onClick={() => handleMenuClick("Contact")}
-            >
-              Contact Me
-            </a>
-          </li>
-          <li className={style.items}>
-            <a
-              className={
-                currPage === "Resume"
-                  ? style.itemsSelected
-                  : style.itemsUnselected
-              }
-              href="#resume"
-              onClick={() => handleMenuClick("Resume")}
-            >
-              Resume
-            </a>
-          </li>
-        </ul>
-      )}
-      <button className={style.btn} onClick={toggleNav}>
-        <img className={style.hamburger} src={hamburgerIcon} alt={""} />
-      </button>
+    <header className={style.header}>
+      <div className={style.menubar}>
+        <h2 className={style.logo}>SimmonsOne</h2>
+        {(toggleMenu || screenWidth > 767) && (
+          <ul className={style.list}>
+            <li className={style.items}>
+              <a
+                className={
+                  currPage === "Home"
+                    ? style.itemsSelected
+                    : style.itemsUnselected
+                }
+                href="#home"
+                onClick={() => handleMenuClick("Home")}
+              >
+                About Me
+              </a>
+            </li>
+            <li className={style.items}>
+              <a
+                className={
+                  currPage === "Projects"
+                    ? style.itemsSelected
+                    : style.itemsUnselected
+                }
+                href="#projects"
+                onClick={() => handleMenuClick("Projects")}
+              >
+                Projects
+              </a>
+            </li>
+            <li className={style.items}>
+              <a
+                className={
+                  currPage === "Contact"
+                    ? style.itemsSelected
+                    : style.itemsUnselected
+                }
+                href="#contact"
+                onClick={() => handleMenuClick("Contact")}
+              >
+                Contact Me
+              </a>
+            </li>
+            <li className={style.items}>
+              <a
+                className={
+                  currPage === "Resume"
+                    ? style.itemsSelected
+                    : style.itemsUnselected
+                }
+                href="#resume"
+                onClick={() => handleMenuClick("Resume")}
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
+        )}
+        <button className={style.btn} onClick={toggleNav}>
+          <img className={style.hamburger} src={hamburgerIcon} alt={""} />
+        </button>
       </div>
     </header>
   );

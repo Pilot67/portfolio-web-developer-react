@@ -11,8 +11,14 @@
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
 }
 
+.logo {
+  color: var(--chalk);
+  margin-left: 20px;
+  align-self: center;
+}
 .list {
   display: flex;
   flex-direction: column;

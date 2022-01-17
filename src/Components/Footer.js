@@ -4,6 +4,7 @@ import "./css/footer.css";
 function Footer() {
   return (
     <footer>
+      <section className="container">
       <div>
         <h4>Melbourne, Australia</h4>
       </div>
@@ -38,6 +39,7 @@ function Footer() {
           />
         </a>
       </div>
+      </section>
     </footer>
   );
 }

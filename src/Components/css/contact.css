@@ -1,15 +1,17 @@
-.formBackground{
-    background-color: var(--khaki);
-
-}
-
 .form {
     display: flex;
     max-width: 700px;
     width: 100%;
     flex-direction: column;
-    padding: 50px
+    justify-content: center;
+    padding: 50px;
+    background-color: var(--khaki);
+    margin: auto;
 }
+.formCard{
+    background-color: var(--khaki);
+}
+
 .form h3{
     padding: 3rem;
 }

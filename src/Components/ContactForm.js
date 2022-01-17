@@ -32,7 +32,7 @@ function Contact() {
     } else if (inputType === "email" && !validateEmail(email)) {
       setErrorMessage("Email address is invalid");
       return;
-    } else {
+    } else if (inputType === "name" && !name) {
       setErrorMessage(`${inputType} is required`);
     }
   };
@@ -45,7 +45,6 @@ function Contact() {
     if (!validateEmail(email) || !name) {
       setErrorMessage("Email or name is invalid");
       return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
     if (!message) {
       setErrorMessage(`A message is required`);
@@ -54,12 +53,13 @@ function Contact() {
 
     setName("");
     setEmail("");
-    setMessage("");
+    setMessage((prevInputValue) => (prevInputValue = ""));
     alert(`Hello ${name}, your message has been sent`);
   };
 
   return (
-    <div className="container formBackground">
+    <div className="container">
+      <div className="cardBodyWide formCard">
       <form className="form">
         <h3 className="text-center">Send me a message</h3>
         <label htmlFor="email">Enter your email address</label>
@@ -107,6 +107,7 @@ function Contact() {
           </div>
         )}
       </form>
+      </div>
     </div>
   );
 }

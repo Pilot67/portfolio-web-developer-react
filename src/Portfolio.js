@@ -1,4 +1,14 @@
-const content = [{
+const content = [
+{
+    heading:" Just Another Text Editor (JATE)",
+    content:`A text editor depolyed on Heroku showing the use of page caching and the ability for the website to operte offline.
+The app uses the local browser database for storage.
+The app can be installed showing a great Progressive Web App`,
+    link:"https://warm-anchorage-56214.herokuapp.com/",
+    github:"https://github.com/Pilot67/another-text-editor",
+    image:"./images/JATE-1024.png"
+},
+    {
     heading:"The Captains Log",
     content:`Everyday pilots around the world need to record important flight information in their personal logbook.
 Our requirement was:
@@ -32,6 +42,45 @@ This app showcases my first full stack development utilising MySQL Sequelize, Ha
     github: "https://github.com/Pilot67/tech-blog",
     image: "./images/Tech-Blog-1024.png",
 
-}]
+},
+{
+    heading:"Parody Pumper",
+    content:`Ever wondered how your favourite song would sound with different words?
+Ever felt the words of a song just needed a little tweak?
+Ever wanted to test someone's knowledge of a song?
+
+Change the lyrics of a song with rhymes, synonyms and antonyms.
+
+This group project showcases the use of 3rd party API's, jQuery along with various other programming skills including Github.`,
+link:"https://pilot67.github.io/parody-pumper/",
+github: "https://github.com/Pilot67/parody-pumper",
+image: "./images/ParodyPumper-1024.png"
+},
+{
+    heading:"Weather Dashboard",
+    content:`Utilising 'openweathermap' API this application allows the user to search cities worldwide and view the current weather and a 5 day forecast.
+The website showcases the use of API's, jQuery, jQueryUI`,
+    link: "https://pilot67.github.io/06-unique-weather-forecast/",
+    github:"https://github.com/Pilot67/06-unique-weather-forecast",
+    image: "./images/WeatherDashboard.png"
+},
+{
+    heading:"Workday Scheduler",
+    content:`A simple workday planner, this application can be easily expanded and customised to include a yearly planner with drag and drop events.
+Showcasing jQuery and jQueryUI along with moment.js librabry for time maipulation.`,
+    link: "https://pilot67.github.io/05-homework-work-day-scheduler/",
+    github:"https://github.com/Pilot67/05-homework-work-day-scheduler",
+    image: "./images/WorkDaySchedule.png"
+},
+{
+    heading:"ARC Aviation",
+    content:`Arc Aviation is a flight training and sales company based at Moorabbin Airport, Melbourne Australia.
+The website showcases their sales and flight training. The site includes specifications, photo galleries, news articles and contact information.
+This site has been built using Webflow`,
+    link: "https://arcaviation.com.au",
+    github:"Not Available",
+    image: "./images/arcAviation-1024-768.jpg"
+}
+]
 
 export default content
