@@ -1,10 +1,14 @@
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.footer {
   padding: 0 0.5rem;
   background-color: var(--darkcharcoal);
+}
+.footerContainer {
+display: flex;
+max-width: 1180px;
+justify-content: space-between;
+margin: auto;
+align-items: center;
+
 }
 footer h4 {
   color: var(--chalk);
@@ -16,7 +20,7 @@ footer h4 {
   padding: 1rem;
 }
 @media screen and (min-width: 640px) {
-  footer {
+  .footer {
     padding: 0 3rem;
   }
   .footerImage {
