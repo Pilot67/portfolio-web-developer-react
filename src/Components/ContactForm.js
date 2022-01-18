@@ -55,7 +55,7 @@ function Contact() {
 
     setName("");
     setEmail("");
-    setMessage((prevInputValue) => (prevInputValue = ""));
+    setMessage("");
     alert(`Hello ${name}, your message has been sent\n ${message}`);
   };
 
@@ -94,7 +94,8 @@ function Contact() {
             name="message"
             rows="4"
             placeholder="Message"
-            maxLength="3000"
+            maxLength="1000"
+            value = {message}
             onChange={handleInputChange}
             onMouseLeave={handleMouseLeave}
             onMouseEnter={handleMouseEnter}
