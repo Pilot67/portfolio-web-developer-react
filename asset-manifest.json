@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-web-developer-react/static/css/main.79342a2e.css",
-    "main.js": "/portfolio-web-developer-react/static/js/main.4982cb22.js",
+    "main.js": "/portfolio-web-developer-react/static/js/main.32d4db4d.js",
     "static/media/pilot-log-gif.gif": "/portfolio-web-developer-react/static/media/pilot-log-gif.298c7cd884aaf8e1234f.gif",
     "static/media/heroImage-1024.png": "/portfolio-web-developer-react/static/media/heroImage-1024.91e46f73c6fdf881d0ba.png",
     "static/media/WeatherDashboard.png": "/portfolio-web-developer-react/static/media/WeatherDashboard.276bab0f58e20f79775b.png",
@@ -17,10 +17,10 @@
     "static/media/github.png": "/portfolio-web-developer-react/static/media/github.9e094d235b4caa7c31fc.png",
     "index.html": "/portfolio-web-developer-react/index.html",
     "main.79342a2e.css.map": "/portfolio-web-developer-react/static/css/main.79342a2e.css.map",
-    "main.4982cb22.js.map": "/portfolio-web-developer-react/static/js/main.4982cb22.js.map"
+    "main.32d4db4d.js.map": "/portfolio-web-developer-react/static/js/main.32d4db4d.js.map"
   },
   "entrypoints": [
     "static/css/main.79342a2e.css",
-    "static/js/main.4982cb22.js"
+    "static/js/main.32d4db4d.js"
   ]
 }
