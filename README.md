@@ -5,7 +5,7 @@
 <br>
 
 # Professional Portfolio using React.js  
-<br>
+![home-640](https://user-images.githubusercontent.com/86697483/149862727-fddbcb2d-f556-4512-a534-bc874bc78167.png)  
 
 ## Table of Contents
   
@@ -35,7 +35,11 @@ If you would like to clone the code and install it on your machine, run the comm
   
 ## Usage
 Click on the links in the navigation bar to review my work and resume.  
-<br>
+![projects](https://user-images.githubusercontent.com/86697483/149862776-8ac47af3-6311-498e-96aa-9d0829cca491.png)  
+  
+![contact](https://user-images.githubusercontent.com/86697483/149862792-5ed29a8a-2004-41ff-a83d-cdb3713afdb4.png)  
+  
+![resume](https://user-images.githubusercontent.com/86697483/149862820-6343b778-cc68-44cc-9d8b-2749282052d3.png)  
 <p align="right">(<a href="#top">back to top</a>)</p>
   
 ## Licence
