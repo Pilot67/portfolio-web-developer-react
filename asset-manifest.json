@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-web-developer-react/static/css/main.bd588c15.css",
-    "main.js": "/portfolio-web-developer-react/static/js/main.bc954f38.js",
+    "main.css": "/portfolio-web-developer-react/static/css/main.f34f51a2.css",
+    "main.js": "/portfolio-web-developer-react/static/js/main.355da068.js",
     "static/media/pilot-log-gif.gif": "/portfolio-web-developer-react/static/media/pilot-log-gif.298c7cd884aaf8e1234f.gif",
     "static/media/heroImage-1024.png": "/portfolio-web-developer-react/static/media/heroImage-1024.91e46f73c6fdf881d0ba.png",
     "static/media/WeatherDashboard.png": "/portfolio-web-developer-react/static/media/WeatherDashboard.276bab0f58e20f79775b.png",
@@ -13,14 +13,14 @@
     "static/media/Tech-Blog-1024.png": "/portfolio-web-developer-react/static/media/Tech-Blog-1024.cdccd3c9ff086426455d.png",
     "static/media/Readme-Gen.png": "/portfolio-web-developer-react/static/media/Readme-Gen.020311fb633b5b15cc5c.png",
     "static/media/WorkDaySchedule.png": "/portfolio-web-developer-react/static/media/WorkDaySchedule.e01c00b2f5de3cee24e0.png",
-    "static/media/JATE-1024.png": "/portfolio-web-developer-react/static/media/JATE-1024.4a193eedbcb631c4a2d5.png",
+    "static/media/JATE-1024.png": "/portfolio-web-developer-react/static/media/JATE-1024.00808c93288f71090643.png",
     "static/media/github.png": "/portfolio-web-developer-react/static/media/github.9e094d235b4caa7c31fc.png",
     "index.html": "/portfolio-web-developer-react/index.html",
-    "main.bd588c15.css.map": "/portfolio-web-developer-react/static/css/main.bd588c15.css.map",
-    "main.bc954f38.js.map": "/portfolio-web-developer-react/static/js/main.bc954f38.js.map"
+    "main.f34f51a2.css.map": "/portfolio-web-developer-react/static/css/main.f34f51a2.css.map",
+    "main.355da068.js.map": "/portfolio-web-developer-react/static/js/main.355da068.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd588c15.css",
-    "static/js/main.bc954f38.js"
+    "static/css/main.f34f51a2.css",
+    "static/js/main.355da068.js"
   ]
 }
