@@ -16,14 +16,14 @@ function Card() {
                 <h2 className="text-center">{heading}</h2>
               </a>
               <p className="cardContent">{content}</p>
+              <a href={github} target="_blank" rel="noreferrer">
+                Click here for the Github Repository
+              </a>
             </div>
-            <a href={github} target="_blank" rel="noreferrer">
-              Click here for the Github Repository
-            </a>
           </div>
           <div className="projectCardImage">
             <a href={link} target="_blank" rel="noreferrer">
-            <img src={require(`${image}`)} alt="Project / app images" />
+              <img src={require(`${image}`)} alt="Project / app images" />
             </a>
           </div>
         </section>

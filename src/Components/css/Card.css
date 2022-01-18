@@ -5,38 +5,39 @@
   box-shadow: 0 0 10px 0 var(--darkcharcoal);
   border-radius: 2px;
   margin: 15px 0;
+  justify-content: flex-end;
 }
 .projectCardBody {
   width: 100%;
-  flex: 1 1 100%;
+  flex: 1 0 100%;
   display: flex;
   flex-direction: column-reverse;
   box-shadow: 0 0 10px 0 var(--darkcharcoal);
   border-radius: 2px;
   margin: 15px 0px;
   padding: 10px;
-  align-self: stretch;
   justify-content: flex-end;
 }
 .projectCardText {
   padding: 20px;
-  flex: 1 0 30%;
+  flex: 1 0 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .projectCardImage {
   width: 100%;
-  height: 70%;
+  height: 100%;
   padding: 10px
 }
 .projectCardImage img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 15% 50%;
-}
+  justify-self: flex-start;
+} 
 
 @media screen and (min-width: 768px) {
   /* Change the navigattion menu bar for tablet screens */
@@ -46,7 +47,6 @@
   }
   .projectCardBodyWide {
     margin: 15px 10px;
-    align-items: stretch;
   }
 
   .projectCardBody {
