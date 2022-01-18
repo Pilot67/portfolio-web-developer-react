@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-web-developer-react/static/css/main.fcdbe0a0.css",
-    "main.js": "/portfolio-web-developer-react/static/js/main.47885951.js",
+    "main.css": "/portfolio-web-developer-react/static/css/main.bd588c15.css",
+    "main.js": "/portfolio-web-developer-react/static/js/main.bc954f38.js",
     "static/media/pilot-log-gif.gif": "/portfolio-web-developer-react/static/media/pilot-log-gif.298c7cd884aaf8e1234f.gif",
     "static/media/heroImage-1024.png": "/portfolio-web-developer-react/static/media/heroImage-1024.91e46f73c6fdf881d0ba.png",
     "static/media/WeatherDashboard.png": "/portfolio-web-developer-react/static/media/WeatherDashboard.276bab0f58e20f79775b.png",
@@ -16,11 +16,11 @@
     "static/media/JATE-1024.png": "/portfolio-web-developer-react/static/media/JATE-1024.4a193eedbcb631c4a2d5.png",
     "static/media/github.png": "/portfolio-web-developer-react/static/media/github.9e094d235b4caa7c31fc.png",
     "index.html": "/portfolio-web-developer-react/index.html",
-    "main.fcdbe0a0.css.map": "/portfolio-web-developer-react/static/css/main.fcdbe0a0.css.map",
-    "main.47885951.js.map": "/portfolio-web-developer-react/static/js/main.47885951.js.map"
+    "main.bd588c15.css.map": "/portfolio-web-developer-react/static/css/main.bd588c15.css.map",
+    "main.bc954f38.js.map": "/portfolio-web-developer-react/static/js/main.bc954f38.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcdbe0a0.css",
-    "static/js/main.47885951.js"
+    "static/css/main.bd588c15.css",
+    "static/js/main.bc954f38.js"
   ]
 }
