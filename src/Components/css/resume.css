@@ -1,0 +1,11 @@
+.competenciesList {
+    font-size: 2rem;
+    list-style-type: square;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.competenciesItems{
+    list-style-type: disc;
+    margin-left: 3rem;
+    font-weight: normal;
+}
