@@ -9,3 +9,18 @@
     margin-left: 3rem;
     font-weight: normal;
 }
+.githubImage {
+    width: 2.5em;
+    padding: 1rem;
+    opacity: 0.6;
+  }
+  .githubImage:hover {
+    opacity: 1;
+  }
+  @media screen and (min-width: 640px) {
+    .githubImage {
+      width: 3em;
+      padding: 0.75rem;
+    }
+  }
+  

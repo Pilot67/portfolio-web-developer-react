@@ -1,5 +1,7 @@
 import React from "react";
 import "./css/Card.css";
+import "./css/footer.css";
+
 import content from "../Portfolio";
 
 function Card() {
@@ -16,8 +18,13 @@ function Card() {
                 <h2 className="text-center">{heading}</h2>
               </a>
               <p className="cardContent">{content}</p>
+              {/* adding Github Icon */}
               <a href={github} target="_blank" rel="noreferrer">
-                Click here for the Github Repository
+                <img
+                  className="githubImage"
+                  src={require("./images/github.png")}
+                  alt="github"
+                />
               </a>
             </div>
           </div>

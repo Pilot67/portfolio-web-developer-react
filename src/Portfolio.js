@@ -78,7 +78,7 @@ Showcasing jQuery and jQueryUI along with moment.js librabry for time maipulatio
 The website showcases their sales and flight training. The site includes specifications, photo galleries, news articles and contact information.
 This site has been built using Webflow`,
     link: "https://arcaviation.com.au",
-    github:"Not Available",
+    github:"",
     image: "./images/arcAviation-1024-768.jpg"
 }
 ]

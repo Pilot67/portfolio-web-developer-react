@@ -28,7 +28,15 @@ const Navbar = ({ handlePageChange, currPage }) => {
   return (
     <header className={style.header}>
       <div className={style.menubar}>
-        <h2 className={style.logo}>SimmonsOne</h2>
+        <h2 className={style.logo}>
+          <a
+            className={style.itemsUnselected}
+            href="#home"
+            onClick={() => handleMenuClick("Home")}
+          >
+            SimmonsOne
+          </a>
+        </h2>
         {(toggleMenu || screenWidth > 767) && (
           <ul className={style.list}>
             <li className={style.items}>
