@@ -2,8 +2,8 @@
   "name": "portfolio-web-developer-react",
   "version": "0.1.0",
   "private": true,
-  "old": "https://pilot67.github.io/portfolio-web-developer-react/",
-  "homepage": "http://simmons1.net/portfolio/",
+  "homepageold": "https://pilot67.github.io/portfolio-web-developer-react/",
+  "simmons1.homepage": "http://simmons1.net/portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
