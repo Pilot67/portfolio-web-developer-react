@@ -8,7 +8,7 @@ function Resume() {
         <div className="cardText cardTextAbout">
           <h3>Resume</h3>
           <br/>
-          <p>Click on the link <span><a href="stuart-simmons-resume.pdf" target="_blank" rel="noreferrer">here</a></span> to download my resume.</p>
+          <p>Click on the link <span><a href={process.env.PUBLIC_URL+"/stuart-simmons-resume.pdf"} target="_blank" rel="noreferrer">here</a></span> to download my resume.</p>
           <br/>
           <h5>Software development competencies</h5>
           <br/>

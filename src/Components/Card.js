@@ -14,8 +14,8 @@ function Card() {
         >
           <div className="projectCardText">
             <div>
-              <a href={link} target="_blank" rel="noreferrer">
-                <h2 className="text-center">{heading}</h2>
+              <a href={link} className="cursor-pointer" target="_blank" rel="noreferrer">
+                <h2 className="text-center cursor-pointer">{heading}</h2>
               </a>
               <p className="cardContent">{content}</p>
               {/* adding Github Icon */}
