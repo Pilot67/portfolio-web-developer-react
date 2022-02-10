@@ -64,6 +64,7 @@ No test files yet, check again soon<br>
   
 ## Links
 Published Link: http://simmons1.net/portfolio/  
+Github Published Link: https://pilot67.github.io/portfolio-web-developer-react/  
 Github Link: https://github.com/Pilot67/portfolio-web-developer-react  
 <p align="right">(<a href="#top">back to top</a>)</p>
   
